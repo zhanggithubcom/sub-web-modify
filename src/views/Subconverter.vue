@@ -362,6 +362,15 @@ export default {
         ],
         remoteConfig: [
           {
+            label: "自定义规则上传",
+            options: [
+              {
+                label: "https://subup.cc.cd",
+                value: "https://subup.cc.cd"
+              }
+            ]
+          },
+          {
             label: "CM规则",
             options: [
               {
