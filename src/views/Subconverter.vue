@@ -343,7 +343,7 @@ export default {
           "自动判断客户端": "auto",
         },
         shortTypes: {
-          "subtcc.cc.cd": "https://subtcc.cc.cd/short",
+          "v7.cc.cd": "https://v7.cc.cd/short",
           "v1.mk": "https://v1.mk/short",
           "d1.mk": "https://d1.mk/short",
           "dlj.tf": "https://dlj.tf/short",
@@ -792,7 +792,7 @@ export default {
         sourceSubUrl: "",
         clientType: "",
         customBackend: this.getUrlParam() == "" ? "https://url.v1.mk" : this.getUrlParam(),
-        shortType: "https://subtcc.cc.cd/short",
+        shortType: "https://v7.cc.cd/short",
         remoteConfig: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini",
         excludeRemarks: "",
         includeRemarks: "",
