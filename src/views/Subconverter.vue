@@ -376,15 +376,15 @@ export default {
             label: "CM规则",
             options: [
               {
-                label: "简洁",
+                label: "Mini",
                 value: "https://subup.cc.cd/config/ACL4SSR_Mini.ini"
               },
               {
-                label: "自动测试",
+                label: "URL_test",
                 value: "https://subup.cc.cd/config/ACL4SSR_URL_test.ini"
               },
               {
-                label: "负载均衡",
+                label: "Fallback",
                 value: "https://subup.cc.cd/config/ACL4SSR_Fallback.ini"
               },
               {
@@ -814,9 +814,9 @@ export default {
       form: {
         sourceSubUrl: "",
         clientType: "",
-        customBackend: this.getUrlParam() == "" ? "https://url.v1.mk" : this.getUrlParam(),
+        customBackend: this.getUrlParam() == "" ? "https://tcc3.cc.cd" : this.getUrlParam(),
         shortType: "https://v7.cc.cd/short",
-        remoteConfig: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini",
+        remoteConfig: "https://subup.cc.cd/config/ACL4SSR_Mini.ini",
         excludeRemarks: "",
         includeRemarks: "",
         filename: "",
