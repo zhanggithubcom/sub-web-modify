@@ -356,7 +356,7 @@ export default {
           "肥羊提供-备用后端": "https://api.v1.mk",
         },
         backendOptions: [
-          { value: "https://tcc3.cc.cd" },
+          { value: "https://tcc3.cc.cd:25500" },
           { value: "https://subapi.cmliussss.net" },
           { value: "https://subapi.fxxk.dedyn.io" },
           { value: "https://url.v1.mk" },
@@ -814,7 +814,7 @@ export default {
       form: {
         sourceSubUrl: "",
         clientType: "",
-        customBackend: this.getUrlParam() == "" ? "https://tcc3.cc.cd" : this.getUrlParam(),
+        customBackend: this.getUrlParam() == "" ? "https://tcc3.cc.cd:25500" : this.getUrlParam(),
         shortType: "https://v7.cc.cd/short",
         remoteConfig: "https://subup.cc.cd/config/ACL4SSR_Mini.ini",
         excludeRemarks: "",
