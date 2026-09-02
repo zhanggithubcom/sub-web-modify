@@ -349,12 +349,14 @@ export default {
           "dlj.tf": "https://dlj.tf/short",
         },
         customBackend: {
+          "自建后端": "https://tcc3.cc.cd",
           "CM提供-负载均衡后端": "https://subapi.cmliussss.net",
           "CM提供-应急备用后端": "https://subapi.fxxk.dedyn.io",
           "肥羊提供-增强型后端": "https://url.v1.mk",
           "肥羊提供-备用后端": "https://api.v1.mk",
         },
         backendOptions: [
+          { value: "https://tcc3.cc.cd" },
           { value: "https://subapi.cmliussss.net" },
           { value: "https://subapi.fxxk.dedyn.io" },
           { value: "https://url.v1.mk" },
@@ -373,6 +375,18 @@ export default {
           {
             label: "CM规则",
             options: [
+              {
+                label: "简洁",
+                value: "https://subup.cc.cd/config/ACL4SSR_Mini.ini"
+              },
+              {
+                label: "自动测试",
+                value: "https://subup.cc.cd/config/ACL4SSR_URL_test.ini"
+              },
+              {
+                label: "负载均衡",
+                value: "https://subup.cc.cd/config/ACL4SSR_Fallback.ini"
+              },
               {
                 label: "CM_Online 默认版 识别港美地区(与Github同步)",
                 value: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini"
